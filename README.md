@@ -1,5 +1,5 @@
 <h1 align="center">
-  Landing Page - Viva+ Fit 
+  <strong>Viva+ Fit</strong> 
 </h1>
 
 <p align="center">
