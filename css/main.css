@@ -1,0 +1,38 @@
+/*
+acho que terei que ajustar o display para mobile
+e tamahnos (width)
+
+ideia para a página / estrutura (vai ocupar toda?)
+*/
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 1300px; 
+}
+
+#sobrenos {
+
+}
+
+.sobrenos_infos {
+    display: inline-block;
+    row-gap: 200px;
+}
+
+.quemsomos {
+    position: relative;
+
+    width: 1300px;
+
+    background: #ff00002a;
+}
+
+.quemsomos h1 {
+    padding: 50px 1;
+    font-size: 120px;
+
+
+}
