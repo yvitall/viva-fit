@@ -5,66 +5,115 @@ e tamahnos (width)
 ideia para a página / estrutura (vai ocupar toda?)
 */
 
+/*
+APRENDER DEPOIS USAR @media (px)
+*/
+
 main {
     display: flex;
     flex-direction: column;
 
+    margin: 0;
+    padding: 0;
+    inset: 0;
     width: 100%;
     max-width: 1300px; 
-
-    margin-top: 30px;
 }
 
+#sobrenos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
 
-.sobrenos_infos {
-    display: inline-block;
-
+#sobrenos img {
     position: relative;
 
-    width: 100%;
+    width: 40%;
+    height: auto;
+}
+
+.sobrenos_infos {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3rem;
+
     max-width: 1300px;
-
-    background: #ff00002a;
-
+    width: 100%;
 }
 
 .sobrenos_infos h1 {
-    font-size: 120px;
-
+    font-size: clamp(3rem, 7.5rem, 10rem);
+    
     color: var(--greenfit);
+
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
 }
 
-.sobrenos_infos p {
-    font-size: 30px;
+.sobrenos_infos p {     
+    font-size: clamp(1rem, 2rem, 3rem);
+    margin: -3px 0px 20px 0;
 }
+
+
 
 #produtos {
+    display: flex;
+    flex-direction: column;
     background: #ff00002a;
 }
 
-#produtos h1{
-    font-size: 120px;
+.produto_info h1 {
+    font-size: clamp(3rem, 7.5rem, 10rem);
+    
+    color: var(--greenfit);
+
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+
+.produto_info p {     
+    font-size: clamp(1rem, 2rem, 3rem);
+    margin: -3px 0px 20px 0;
+}
+
+.produto_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: clamp(1rem, 2rem, 4rem) ;
+  height: 100%;
 }
 
 .produto_list img {
-  width: 100%;
+  width: 90%;
   height: 500px;
   border-radius: 15px;
 
   object-fit: cover;
 
-  transition: 0.4s ease;
+  transition: 0.5s ease;
   filter: brightness(0.8);
+
+  cursor: pointer;
 }
 
 .produto_list img:hover {
-  transform: scale(1.05);
-  filter: brightness(1);
+    transform: scale(1.05);
+    filter: brightness(1);
 }
 
-.produto_list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 50px;
-  height: 700px;
-}
+.pix {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    max-width: 1300px;
+    width: 100%;
+
+    background: #ff00002a;
+} 
