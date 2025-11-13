@@ -34,7 +34,7 @@ header img {
     transition: 0.3s;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) { /*IMPROVISO PARA FINALIZAR: FEITO TOTAL POR MIM*/
     .navigation_links {
         font-size: 1rem;
     }

@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src=".github/preview.png" width="100%" /> <em>Desatualizado, não há protótipo</em>
+  <img src="assets/Captura de tela 2025-11-12 211913.png" width="100%" />
 </p>
 
 ## 🚀 Tecnologias
