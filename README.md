@@ -10,19 +10,17 @@
 
 - HTML
 - CSS
-- JavaScript (tentarei aplicar carrossel, interativo ou não)
-- [AOS Animate](https://michalsnik.github.io/aos/)
 
-## 📔 Conhecimentos abordados
+## 📔 Conhecimentos adquiridos/praticados
 
 - [x] Uso semântico do HTML
 - [x] Váriaveis do css no `:root`
-- [x] Animações com a biblioteca [AOS](https://michalsnik.github.io/aos/)
 - [x] Uso do CSS Flexbox
 - [x] Efeitos com a propriedade `transform` do css
-
+- [x] Conhecer um pouco sobre `@media` e Resposividade para mobile
+- [x] `clamp`, `rem` & `vw/vh`
 
 ## 📝 Metas
-- [ ] Utilizar JavaScript
-- [ ] Criar responsividade
-- [ ] Adicionar efeito de hover nos botões
+- [x] Criar responsividade
+- [x] Aquirir novos conhecimentos
+- [x] Praticar e colocar em prática conhecimentos

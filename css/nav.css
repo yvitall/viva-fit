@@ -33,3 +33,22 @@ header img {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+
+@media (max-width: 480px) {
+    .navigation_links {
+        font-size: 1rem;
+    }
+
+    header {
+        margin: 15px 20px;
+    }
+
+    .navigation{
+    margin: 0 20px;
+    }
+
+    header img {
+        width: 50px;
+        margin-left: 20px;
+    }
+}
